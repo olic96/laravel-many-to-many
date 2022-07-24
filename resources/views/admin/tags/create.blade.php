@@ -4,10 +4,10 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h1>Crea una nuova tag</h1>
+                <h1>Crea una nuova categoria</h1>
             </div>
             <div class="card-body">
-                <form action="{{route('admin.tags.store')}}" method="POST">
+                <form action="{{route('admin.categories.store')}}" method="POST">
                     @csrf
                     <div class="form-group">
                         <label for="name">Nome</label>
